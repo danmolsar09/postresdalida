@@ -11,8 +11,6 @@
 
 	echo "Error en la conexión";
 
-	}else {
-	echo "conexión exitosa" ;
 	}
 
 ?>
