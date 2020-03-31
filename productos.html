@@ -24,7 +24,10 @@
   }
 
   body{
-background-image: url(images/fond3.png);
+background-image: url(images/fondopr.png);
+background-size: 100vw 100vh;
+background-attachment: fixed;
+
   }
 
   p{
@@ -37,7 +40,7 @@ background-image: url(images/fond3.png);
 
 <!-- LOGO -->
 <nav class="navbar sticky-top"style="background:#F7EFCE">
-  <a class="navbar-brand d-flex justify-content-center" href="index.html">
+  <a class="navbar-brand d-flex justify-content-center" href="#">
     <img src="images/logob3.png" width="205" height="120" alt="">
   </a>
 </nav>
@@ -80,17 +83,87 @@ background-image: url(images/fond3.png);
 
 <!-- container -->
 
-<section class="container">
+<saction class="container">
    <font face="Forte">
   <h1 class="mt-5 display-4  text-center mb-5" style="text-shadow: 7px 5px 10px gray">PRODUCTOS</h1></font>
-</section>
+</saction>
 
-      <!--PARA PRODUCTOS-->
-      <div class="container">
 
-      </div>
+<div class="container" style="background: rgba(0,0,0,0.4);">
+  <div class="row">
+    <div class="col-12">
+      <p></p>
+    </div>
+</div>
+</div>
 
-           
+<div class="container text-center" style="background: rgba(0,0,0,0.4);" >
+  <div class="row">
+
+<?php
+  $sentencia=$pdo->prepare ("SELECT * FROM `productos` WHERE ncategoria=3");
+  $sentencia->execute();
+  $listaProductos=$sentencia->fetchAll(PDO::FETCH_ASSOC); ?>
+
+    <div class="col-4">
+     <div class="card-deck">
+  
+  <div class="card">
+    <img 
+    title="
+
+    DESCRIPCIÓN: 
+
+  <?php echo $producto['descripcion']; ?>"
+
+
+    alt="<?php echo $producto['imagen']; ?>"  
+    class="card-img-top img-fluid" 
+    src="images/<?php echo $producto['imagen']; ?>" 
+    data-toggle="popover"
+    data-trigger="hover"
+    height="317px"
+    title="<?php echo $producto['nombre']; ?>" 
+    data-content="<?php echo $producto['descripcion'];
+     ?>"
+    >
+
+    <div class="card-body">
+      <h5 class="card-title"><?php echo $producto['nombre']; ?></h5>
+      <p class="card-text"> $ <?php echo $producto['precio']; ?>. <br>DESCRIPCIÓN</p>
+
+  <!-- formulario -->
+<form action="" method="post">
+<input type="hidden" name="idp" id="idp" value="<?php echo openssl_encrypt ($producto['idp'],COD,KEY); ?>">
+<input type="hidden" name="nombre" id="nombre" value="<?php echo openssl_encrypt ($producto['nombre'],COD,KEY); ?>">  
+<input type="hidden" name="precio" id="precio" value="<?php echo openssl_encrypt ($producto['precio'],COD,KEY); ?>">   
+<input type="hidden" name="cantidad" id="cantidad" value="<?php echo openssl_encrypt (1,COD,KEY) ?>">
+
+<!-- boton -->
+     <div class="card-footer">
+      <button class="btn btn-primary" 
+      name="btnAccion"
+      value="AGREGAR"
+      type="submit" >AGREGAR AL CARRITO</button>
+    </div>
+
+</form>
+ 
+     <p> <br> </p>
+   </div>
+ </div>
+</div>
+      
+    </div>
+  </div>
+</div>
+<div class="container" style="background: rgba(0,0,0,0.4);">
+  <div class="row">
+    <div class="col-12">
+      <p></p>
+    </div>
+</div>
+</div>
 
 <div class="container">
   <div class="row">
@@ -101,7 +174,7 @@ background-image: url(images/fond3.png);
 </div>
 
 <!-- Footer -->
-<footer class="page-footer font-small unique-color-dark">
+<footer class="page-footer font-small unique-color-dark" style="background-color: #E5BC8E">
 
   <div style="background-color: #D09C4C;">
     <div class="container">
