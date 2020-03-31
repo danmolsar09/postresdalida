@@ -108,7 +108,7 @@ background-attachment: fixed;
   <div class="row">
 
 <?php
-  $sentencia=$pdo->prepare ("SELECT * FROM `productos` WHERE ncategoria=3");
+  $sentencia=$pdo->prepare ("SELECT * FROM 'productos' WHERE ncategoria=3");
   $sentencia->execute();
   $listaProductos=$sentencia->fetchAll(PDO::FETCH_ASSOC); ?>
 
