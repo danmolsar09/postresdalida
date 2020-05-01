@@ -1,4 +1,6 @@
-﻿<!DOCTYPE html>
+﻿
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <!-- Required meta tags -->
@@ -31,6 +33,28 @@
         p {
             font-size: 1rem;
         }
+
+        .titulo
+        {
+            font-size: 45px;
+            text-align: center;
+            font-family: monospace;
+            text-decoration: none;
+            background-color: whitesmoke;
+            color: darksalmon;
+            cursor:-moz-zoom-out;
+        }
+        .titulo:hover
+        {
+            text-decoration: none;
+            color: blueviolet;
+        }
+
+        .sub
+        {
+            font-family: Arial Black;
+        }
+
     </style>
     <title>REPOSTERÍA DALIDA</title>
 </head>
@@ -44,7 +68,7 @@
 
     <!-- LOGO -->
     <nav class="navbar sticky-top" style=" background:#F7EFCE ">
-        <a class="navbar-brand d-flex justify-content-center" href="#">
+        <a class="navbar-brand d-flex justify-content-center" href="index.html">
             <img src="images/logob3.png" width="205" height="120" alt="">
         </a>
     </nav>
@@ -61,17 +85,29 @@
                     <a class="nav-link" href="nosotros.html">NOSOTROS</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">INICIO<span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="index.html">INICIO<span class="sr-only">(current)</span></a>
                 </li>
-                <li class="nav-item dropdown">
+
+                <li class="nav-item  dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        REGISTRO
+                      CUENTA
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="registro.html">REGISTRATE</a>
-                        <a class="dropdown-item" href="iniciar.html">INICIAR SESIÓN</a>
+                      <a class="dropdown-item" href="registroForm.php">REGISTRATE</a>
+                      <a class="dropdown-item" href="loginForm.php">INICIAR SESIÓN</a>
                     </div>
-                </li>
+                  </li>
+
+                <!--
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        CUENTA
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="registro copy.html">REGISTRO</a>
+                        <a class="dropdown-item" href="iniciar.html">INICIA SESIÓN</a>
+                    </div>
+                </li>-->
             </ul>
             <!-- LOGO -->
             <ul class="navbar-nav ml-auto">
@@ -79,7 +115,7 @@
                     <a class="nav-link" href="carrito.html">CARRITO <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="productos.html">PRODUCTOS</a>
+                    <a class="nav-link" href="productos.php">PRODUCTOS</a>
                 </li>
             </ul>
         </div>
@@ -87,35 +123,76 @@
 
     <!-- container -->
 
-    <saction class="container">
+    <section class="container">
         <font face="Forte">
             <h1 class="mt-5 display-4  text-center mb-5" style="text-shadow: 7px 5px 10px gray">¡BIENVENIDOS!</h1>
         </font>
-    </saction>
+    </section>
 
     <div class="container">
         <div class="row">
             <div class="col-1"></div>
             <div class="col-4">
-                <img src="images/PRODUC/otro.jpeg" width="400" height="400">
+                <br><br>
+                <video src="images/pub.mp4" width="400" height="400" controls></video>
             </div>
             <div class="col-5 m-lg-5">
+                <br><br>
                 <h3> ¿Se te antoja algo cremosito?¿Buscas postres innovadores?¿Eres ecológico?¿tienes hambre?</h3>
                 <p class="text-justify mb-4 ">Si respondiste a tan solo una de las anteriores cuestiones que sí, dejeme informarle que usted se encuentra en la página web correcta.</p>
                 <h3>REPOSTERÍA DALIDA</h3>
-                <p class="text-justify mb-5">La mejor reposteria, con los mejores precios y sobre todo... ¡La mejor calidad!</p>
+                <p class="text-justify mb-5">La mejor repostería, con los mejores precios y sobre todo... ¡La mejor calidad!</p>
             </div>
             <div class="col-1"></div>
+            
         </div>
     </div>
 
+    <br><br>
+    
+
     <div class="container">
         <div class="row">
-            <div class="col-12">
-                <h1 class="display-1 text-center mb-5">CONTINUARÁ</h1>
+            <div class="col-1"></div>
+            <div class="col-4">
+                <img src="images/1.jpeg" width="400" height="400">
+            </div>
+            
+            <div class="col-1"></div>
+            <div class="col-4">
+                <img src="images/2.jpeg" width="400" height="400">
+            </div>
+            
+        </div>
+    </div>
+
+    <br><br>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-1"></div>
+            <div class="col-4">
+                <img src="images/3.jpeg" width="400" height="400">
+            </div>
+            
+            <div class="col-1"></div>
+            <div class="col-4">
+                <img src="images/4.jpeg" width="400" height="400">
+            </div>
+            
+        </div>
+    </div>
+<br>
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-12 titulo">
+                <a href="indexForm.php" class="display-1 text-center mb-3 titulo">REGISTRATE O LOGUEATE PARA VER MÁS</a>
             </div>
         </div>
     </div>
+    
+    <br>
 
     <!-- Footer -->
     <footer class="page-footer font-small unique-color-dark">
@@ -160,16 +237,16 @@
                     <h6 class="text-uppercase font-weight-bold">PRODUCTOS</h6>
                     <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
                     <p>
-                        <a href="#!">CLASICOS</a>
+                        <a class="sub" href="#!">CLASICOS</a>
                     </p>
                     <p>
-                        <a href="#!">PARA LA CALOR</a>
+                        <a class="sub" href="#!">PARA LA CALOR</a>
                     </p>
                     <p>
-                        <a href="#!">MEXICANISIMOS</a>
+                        <a class="sub" href="#!">MEXICANISIMOS</a>
                     </p>
                     <p>
-                        <a href="#!">REGALA AMOR</a>
+                        <a class="sub" href="#!">REGALA AMOR</a>
                     </p>
 
                 </div>

@@ -1,7 +1,7 @@
 ﻿<?php
 
-   include 'config.php';
-   include 'conexion.php';
+   include 'global/config.php';
+   include 'global/conexion.php';
 
 ?>
 
@@ -47,7 +47,7 @@ background-attachment: fixed;
 
 <!-- LOGO -->
 <nav class="navbar sticky-top"style="background:#F7EFCE">
-  <a class="navbar-brand d-flex justify-content-center" href="#">
+  <a class="navbar-brand d-flex justify-content-center" href="index.html">
     <img src="images/logob3.png" width="205" height="120" alt="">
   </a>
 </nav>
@@ -66,16 +66,18 @@ background-attachment: fixed;
       <li class="nav-item ">
         <a class="nav-link" href="index.html">INICIO<span class="sr-only">(current)</span></a>
       </li>
-      <li class="nav-item dropdown">
+      <li class="nav-item  dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          REGISTRO
+          CUENTA
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="registro.html">REGISTRATE</a>
-          <a class="dropdown-item" href="iniciar.html">INICIAR SESIÓN</a>
+          <a class="dropdown-item" href="registroForm.php">REGISTRATE</a>
+          <a class="dropdown-item" href="loginForm.php">INICIAR SESIÓN</a>
         </div>
       </li>
-    </ul>
+</ul>
+</div>
+    
 <!-- LOGO -->
      <ul class="navbar-nav ml-auto">
       <li class="nav-item ">
@@ -90,11 +92,18 @@ background-attachment: fixed;
 
 <!-- container -->
 
-<saction class="container">
+<section class="container">
    <font face="Forte">
   <h1 class="mt-5 display-4  text-center mb-5" style="text-shadow: 7px 5px 10px gray">PRODUCTOS</h1></font>
-</saction>
+  <br>
+</section>
 
+
+<saction class="container p-3 mb-2 bg-warning text-dark">
+   <font face="Forte">
+  <h2 class="mt-5 display-4  text-center mb-5" style="text-shadow: 7px 5px 10px gray">PARA LA CALOR</h2></font>
+  <br>
+</saction>
 
 <div class="container" style="background: rgba(0,0,0,0.4);">
   <div class="row">
@@ -104,64 +113,228 @@ background-attachment: fixed;
 </div>
 </div>
 
-<div class="container text-center" style="background: rgba(0,0,0,0.4);" >
+
+  <!--1-->
+  <div class="container text-center" style="background: rgba(0,0,0,0.4);" > 
   <div class="row">
+  <!--PARA MOSTRAR LOS PRODUCTOS DE LA BASE DE DATOS-->
+  <?php
+    $sentencia=$pdo->prepare ("SELECT * FROM `productos` WHERE ncategoria=1");
+    $sentencia->execute();
+    $listaProductos=$sentencia->fetchAll(PDO::FETCH_ASSOC); 
+    //print_r ($listaProductos);
+  ?>
 
-<?php
-  $sentencia=$pdo->prepare ("SELECT * FROM 'productos' WHERE ncategoria=3");
-  $sentencia->execute();
-  $listaProductos=$sentencia->fetchAll(PDO::FETCH_ASSOC); ?>
+  <?php
+    foreach ($listaProductos as $producto)
+      { 
+      ?>
 
-    <div class="col-4">
-     <div class="card-deck">
-  
-  <div class="card">
-    <img 
-    title="
+<div class="col-4">
+      <div class="card-deck">
+      <div class="card">
 
-    DESCRIPCIÓN: 
-
-  <?php echo $producto['descripcion']; ?>"
-
-
-    alt="<?php echo $producto['imagen']; ?>"  
-    class="card-img-top img-fluid" 
-    src="images/<?php echo $producto['imagen']; ?>" 
-    data-toggle="popover"
-    data-trigger="hover"
-    height="317px"
-    title="<?php echo $producto['nombre']; ?>" 
-    data-content="<?php echo $producto['descripcion'];
-     ?>"
-    >
-
+      <img 
+        title=" DESCRIPCIÓN: <?php echo $producto['descripcion']; ?>"  
+        alt="<?php echo $producto['imagen']; ?>"     
+        src="images/postres/<?php echo $producto['imagen']; ?>"
+        data-toggle="popover"
+        data-trigger="hover"
+        height="317px"
+        title="<?php echo $producto['nombre']; ?>" 
+        data-content="<?php echo $producto['descripcion'];
+        ?>"
+      >
+    
     <div class="card-body">
       <h5 class="card-title"><?php echo $producto['nombre']; ?></h5>
-      <p class="card-text"> $ <?php echo $producto['precio']; ?>. <br>DESCRIPCIÓN</p>
-
-  <!-- formulario -->
-<form action="" method="post">
-<input type="hidden" name="idp" id="idp" value="<?php echo openssl_encrypt ($producto['idp'],COD,KEY); ?>">
-<input type="hidden" name="nombre" id="nombre" value="<?php echo openssl_encrypt ($producto['nombre'],COD,KEY); ?>">  
-<input type="hidden" name="precio" id="precio" value="<?php echo openssl_encrypt ($producto['precio'],COD,KEY); ?>">   
-<input type="hidden" name="cantidad" id="cantidad" value="<?php echo openssl_encrypt (1,COD,KEY) ?>">
-
-<!-- boton -->
-     <div class="card-footer">
-      <button class="btn btn-primary" 
-      name="btnAccion"
-      value="AGREGAR"
-      type="submit" >AGREGAR AL CARRITO</button>
-    </div>
-
-</form>
- 
-     <p> <br> </p>
-   </div>
- </div>
-</div>
+      <p class="card-text"> $<?php echo $producto['precio']; ?>. <br>DESCRIPCIÓN </br></p>
       
+      <!-- formulario -->
+      <form action="" method="post">
+        <input type="hidden" name="idp" id="idp" value="<?php echo openssl_encrypt ($producto['idp'],COD,KEY); ?>">
+        <input type="hidden" name="nombre" id="nombre" value="<?php echo openssl_encrypt ($producto['nombre'],COD,KEY); ?>">  
+        <input type="hidden" name="precio" id="precio" value="<?php echo openssl_encrypt ($producto['precio'],COD,KEY); ?>">   
+        <input type="hidden" name="cantidad" id="cantidad" value="<?php echo openssl_encrypt (1,COD,KEY) ?>">
+
+        <!-- boton -->
+        <div class="card-footer">
+        <button class="btn btn-primary" 
+        name="btnAccion"
+        value="AGREGAR"
+        type="submit" >AGREGAR AL CARRITO</button>
+        </div>
+      </form>
+ 
+      <p></p>
+      <br>
+     <p> <br> </p>
+
     </div>
+    </div>
+    </div>    
+    </div>
+
+        <?php
+        }
+      ?>
+
+        <p></p>
+        <br>
+      </div>
+      </div>
+
+
+
+
+<saction class="container p-3 mb-2 bg-warning text-dark">
+   <font face="Forte">
+  <h2 class="mt-5 display-4  text-center mb-5" style="text-shadow: 7px 5px 10px gray">PARA EL FRIO</h2></font>
+  <br>
+</saction>
+      <!--2-->
+      <div class="container text-center" style="background: rgba(0,0,0,0.4);" >
+      <div class="row">
+      
+      <!--PARA MOSTRAR LOS PRODUCTOS DE LA BASE DE DATOS-->
+  <?php
+    $sentencia=$pdo->prepare ("SELECT * FROM `productos` WHERE ncategoria=2");
+    $sentencia->execute();
+    $listaProductos=$sentencia->fetchAll(PDO::FETCH_ASSOC); 
+    //print_r ($listaProductos);
+  ?>
+
+  <?php
+    foreach ($listaProductos as $producto)
+      { 
+      ?>
+
+<div class="col-4">
+      <div class="card-deck">
+      <div class="card">
+
+      <img 
+        title=" DESCRIPCIÓN: <?php echo $producto['descripcion']; ?>"  
+        alt="<?php echo $producto['imagen']; ?>"     
+        src="images/postres/<?php echo $producto['imagen']; ?>"
+        data-toggle="popover"
+        data-trigger="hover"
+        height="317px"
+        title="<?php echo $producto['nombre']; ?>" 
+        data-content="<?php echo $producto['descripcion'];
+        ?>"
+      >
+    
+    <div class="card-body">
+      <h5 class="card-title"><?php echo $producto['nombre']; ?></h5>
+      <p class="card-text"> $<?php echo $producto['precio']; ?>. <br>DESCRIPCIÓN </br></p>
+      
+      <!-- formulario -->
+      <form action="" method="post">
+        <input type="hidden" name="idp" id="idp" value="<?php echo openssl_encrypt ($producto['idp'],COD,KEY); ?>">
+        <input type="hidden" name="nombre" id="nombre" value="<?php echo openssl_encrypt ($producto['nombre'],COD,KEY); ?>">  
+        <input type="hidden" name="precio" id="precio" value="<?php echo openssl_encrypt ($producto['precio'],COD,KEY); ?>">   
+        <input type="hidden" name="cantidad" id="cantidad" value="<?php echo openssl_encrypt (1,COD,KEY) ?>">
+
+        <!-- boton -->
+        <div class="card-footer">
+        <button class="btn btn-primary" 
+        name="btnAccion"
+        value="AGREGAR"
+        type="submit" >AGREGAR AL CARRITO</button>
+        </div>
+      </form>
+ 
+      <p></p>
+      <br>
+     <p> <br> </p>
+
+    </div>
+    </div>
+    </div>    
+    </div>
+
+        <?php
+        }
+      ?>
+      </div>
+      </div>
+
+
+
+
+<saction class="container p-3 mb-2 bg-warning text-dark">
+   <font face="Forte">
+  <h2 class="mt-5 display-4  text-center mb-5" style="text-shadow: 7px 5px 10px gray">DE FIESTA</h2></font>
+  <br>
+</saction>
+      <div class="container text-center" style="background: rgba(0,0,0,0.4);" >
+  <div class="row">
+      <!--3-->
+      <!--PARA MOSTRAR LOS PRODUCTOS DE LA BASE DE DATOS-->
+  <?php
+    $sentencia=$pdo->prepare ("SELECT * FROM `productos` WHERE ncategoria=3");
+    $sentencia->execute();
+    $listaProductos=$sentencia->fetchAll(PDO::FETCH_ASSOC); 
+    //print_r ($listaProductos);
+  ?>
+
+  <?php
+    foreach ($listaProductos as $producto)
+      { 
+      ?>
+
+<div class="col-4">
+      <div class="card-deck">
+      <div class="card">
+
+      <img 
+        title=" DESCRIPCIÓN: <?php echo $producto['descripcion']; ?>"  
+        alt="<?php echo $producto['imagen']; ?>"     
+        src="images/postres/<?php echo $producto['imagen']; ?>"
+        data-toggle="popover"
+        data-trigger="hover"
+        height="317px"
+        title="<?php echo $producto['nombre']; ?>" 
+        data-content="<?php echo $producto['descripcion'];
+        ?>"
+      >
+    
+    <div class="card-body">
+      <h5 class="card-title"><?php echo $producto['nombre']; ?></h5>
+      <p class="card-text"> $<?php echo $producto['precio']; ?>. <br>DESCRIPCIÓN </br></p>
+      
+      <!-- formulario -->
+      <form action="" method="post">
+        <input type="hidden" name="idp" id="idp" value="<?php echo openssl_encrypt ($producto['idp'],COD,KEY); ?>">
+        <input type="hidden" name="nombre" id="nombre" value="<?php echo openssl_encrypt ($producto['nombre'],COD,KEY); ?>">  
+        <input type="hidden" name="precio" id="precio" value="<?php echo openssl_encrypt ($producto['precio'],COD,KEY); ?>">   
+        <input type="hidden" name="cantidad" id="cantidad" value="<?php echo openssl_encrypt (1,COD,KEY) ?>">
+
+        <!-- boton -->
+        <div class="card-footer">
+        <button class="btn btn-primary" 
+        name="btnAccion"
+        value="AGREGAR"
+        type="submit" >AGREGAR AL CARRITO</button>
+        </div>
+      </form>
+ 
+      <p></p>
+      <br>
+     <p> <br> </p>
+
+    </div>
+    </div>
+    </div>    
+    </div>
+
+        <?php
+        }
+      ?>
+      </div>
+      </div>
+
   </div>
 </div>
 <div class="container" style="background: rgba(0,0,0,0.4);">
