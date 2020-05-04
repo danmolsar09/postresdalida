@@ -31,18 +31,17 @@ background-image: url(images/fond3.png);
     font-size: 1rem;
   }
 </style>
-<title>REGISTRO</title>
+<title>NOSOTROS</title>
   </head>
   <body>
-
 <!-- LOGO -->
 <nav class="navbar sticky-top"style="background:#F7EFCE">
-  <a class="navbar-brand d-flex justify-content-center" href="#">
+  <a class="navbar-brand d-flex justify-content-center" href="index.php">
     <img src="images/logob3.png" width="205" height="120" alt="">
   </a>
 </nav>
 
-   <!-- MENU -->
+  <!-- MENU -->
    <nav class="navbar navbar-light navbar-toggleable-sm sticky-top-2" style="background: 
    linear-gradient(#F3CD94, #EBBD79,#E0AD60,#D09C4C)">
 <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -50,29 +49,30 @@ background-image: url(images/fond3.png);
   </button>
   <div class="d-flex align-items-center collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
-      <li class="nav-item ">
-        <a class="nav-link" href="nosotros.html">NOSOTROS</a>
-      </li>
-      <li class="nav-item ">
-        <a class="nav-link" href="index.html">INICIO<span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item active dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          REGISTRO
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">REGISTRATE</a>
-          <a class="dropdown-item" href="iniciar.html">INICIAR SESIÓN</a>
-        </div>
-      </li>
-    </ul>
-<!-- LOGO -->
-     <ul class="navbar-nav ml-auto">
-      <li class="nav-item ">
-        <a class="nav-link" href="#">CARRITO <span class="sr-only">(current)</span></a>
+      <li class="nav-item active">
+        <a class="nav-link" href="nosotros2.html">NOSOTROS<span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="productos.html">PRODUCTOS</a>
+        <a class="nav-link" href="index.php">INICIO</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          CUENTA
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="cerrarSesion.php">CERRAR SESIÓN</a>
+          </div>
+      </li>
+    </ul>
+  </div>
+
+<!-- LOGO -->
+     <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="carrito.html">CARRITO <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="productos.php">PRODUCTOS</a>
       </li>
     </ul>
   </div>     
@@ -80,60 +80,28 @@ background-image: url(images/fond3.png);
 
 <!-- container -->
 
-<saction class="container">
+<section class="container">
    <font face="Forte">
-  <h1 class="mt-5 display-4  text-center mb-5" style="text-shadow: 7px 5px 10px gray">REGISTRO</h1></font>
-</saction>
+  <h1 class="mt-5 display-4  text-center mb-5" style="text-shadow: 7px 5px 10px gray">NOSOTROS</h1></font>
+</section>
 
-<!-- formulario -->
 <div class="container">
-<form>
-  <div class="form-row">
-    <div class="form-group col-md-6">
-      <label for="inputEmail4">Email</label>
-      <input type="email" class="form-control" id="inputEmail4">
+  <div class="row">
+    <div class="col-1"></div>
+    <div class="col-4">
+      <img src="images/gelatina.png" width="380" height="400">
     </div>
-    <div class="form-group col-md-6">
-      <label for="inputPassword4">Password</label>
-      <input type="password" class="form-control" id="inputPassword4">
+    <div class="col-5 m-lg-4">
+      <h3> Empresa 100% mexicana y tlaxcalteca</h3>
+      <p class="text-justify mb-4">Somos un grupo de personas que con un poco de visión han decidido emprender un negocio que hará felices a muchas personas.</h3>
+      <p class="text-justify mb-5">Nuestros productos están hechos con productos de la mejor calidad, es por eso que nos prefieren a nosotros.</p>
     </div>
+    <div class="col-1"></div>
   </div>
-  <div class="form-group">
-    <label for="inputAddress">Address</label>
-    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-  </div>
-  <div class="form-group">
-    <label for="inputAddress2">Address 2</label>
-    <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
-  </div>
-  <div class="form-row">
-    <div class="form-group col-md-6">
-      <label for="inputCity">City</label>
-      <input type="text" class="form-control" id="inputCity">
-    </div>
-    <div class="form-group col-md-4">
-      <label for="inputState">State</label>
-      <select id="inputState" class="form-control">
-        <option selected>Choose...</option>
-        <option>...</option>
-      </select>
-    </div>
-    <div class="form-group col-md-2">
-      <label for="inputZip">Zip</label>
-      <input type="text" class="form-control" id="inputZip">
-    </div>
-  </div>
-  <div class="form-group">
-    <div class="form-check">
-      <input class="form-check-input" type="checkbox" id="gridCheck">
-      <label class="form-check-label" for="gridCheck">
-        Check me out
-      </label>
-    </div>
-  </div>
-  <button type="submit" class="btn btn-primary">Sign in</button>
-</form>
+</div>
+<br><br>
 
+<!--
 <div class="container">
   <div class="row">
     <div class="col-12">
@@ -141,7 +109,7 @@ background-image: url(images/fond3.png);
     </div>
 </div>
 </div>
-</div>
+-->
 
 <!-- Footer -->
 <footer class="page-footer font-small unique-color-dark">

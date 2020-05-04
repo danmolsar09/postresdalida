@@ -84,7 +84,7 @@
     }
 
     /* Input Forms*/
-    input[type="text"], input[type="password"]{
+    input[type="text"], input[type="password"], input[type="email"]{
     outline: none;
     padding: 12px;
     display: block;
@@ -154,7 +154,7 @@
         <a class="nav-link" href="carrito.html">CARRITO <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-        <a class="nav-link" href="productos.php">PRODUCTOS</a>
+        <a class="nav-link" href="indexForm.php">PRODUCTOS</a>
         </li>
         </ul>
         </div>     
@@ -178,13 +178,13 @@
         <div class="container">
         <form action="registroForm.php" method="POST">
 
-            <input name="email" type="text" placeholder="Ingresa tu correo electrónico">
+            <input name="email" type="email" placeholder="Ingresa tu correo electrónico">
             <input name="nombre" type="text" placeholder="Ingresa tu nombre completo">
             <input name="password" type="password" placeholder="Escribe una contraseña">
             <!--<input name="confirm_password" type="password" placeholder="Confirm Password">-->
             <input name="pais" type="text" placeholder="" value="México">
             <input name="estado" type="text" value="Tlaxcala">
-            <input name="ciudad" type="text" placeholder="Ingresa la ciudad donde vives">
+            <input name="ciudad" type="text" placeholder="Ingresa el municipio donde vives">
             <input name="codigoPostal" type="text" placeholder="Ingresa tu código postal">
             <input name="direccion" type="text" placeholder="Ingresa tu dirección">
             <input name="referencias" type="text" placeholder="Agrega referencias de tu domicilio">

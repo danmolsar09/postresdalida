@@ -1,6 +1,4 @@
-﻿
-
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
     <!-- Required meta tags -->
@@ -46,7 +44,7 @@
 
     <!-- LOGO -->
     <nav class="navbar sticky-top" style=" background:#F7EFCE ">
-        <a class="navbar-brand d-flex justify-content-center" href="index.html">
+        <a class="navbar-brand d-flex justify-content-center" href="index.php">
             <img src="images/logob3.png" width="205" height="120" alt="">
         </a>
     </nav>
@@ -60,10 +58,10 @@
         <div class="d-flex align-items-center collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item ">
-                    <a class="nav-link" href="nosotros.html">NOSOTROS</a>
+                    <a class="nav-link" href="nosotros2.html">NOSOTROS</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="index.html">INICIO<span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="index.php">INICIO<span class="sr-only">(current)</span></a>
                 </li>
 
                 <li class="nav-item  dropdown">
@@ -71,21 +69,9 @@
           CUENTA
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="registroForm.php">REGISTRATE</a>
-          <a class="dropdown-item" href="loginForm.php">INICIAR SESIÓN</a>
+          <a class="dropdown-item" href="cerrarSesion.php">CERRAR SESIÓN</a>
         </div>
       </li>
-
-                <!--
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        CUENTA
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="registro copy.html">REGISTRO</a>
-                        <a class="dropdown-item" href="iniciar.html">INICIA SESIÓN</a>
-                    </div>
-                </li>-->
             </ul>
             <!-- LOGO -->
             <ul class="navbar-nav ml-auto">

@@ -1,31 +1,66 @@
 <?php
-    
-    require 'global/config.php';
-    require 'global/conexion2.php';
-    //require 'ind.php';
 
-    session_start();
+    $host = 'localhost';
+    $user = 'root';
+    $password = '';
+    $db = 'reposteria_dalida2';
 
-    if (isset($_SESSION['user_id'])) {
-        header("Location: index.php");
+    $conexion = @mysqli_connect ($host,$user,$password,$db);
+
+    if (!$conexion) {
+        echo "Error";
+    }else{
+       
     }
 
-    if (!empty($_POST['email']) && !empty($_POST['password'])) 
+    $alert = '';
+    session_start();
+    if (!empty($_SESSION['active'])) 
     {
-        $rec = $pdo->prepare('SELECT id, email, correo, nombre, password, pais, estado, ciudad, codigoPostal, direccion, referencias FROM usuarios WHERE email:email');
-        $rec->bindParam(':email',$_POST['email']);
-        $rec->execute();
-
-        $result = $rec->fetch(PDO::FETCH_ASSOC);
-
-        $message='';
-
-        if ($result && count($result)> 0 && password_verify($_POST['password'],$result['password'])) {
-            $_SESSION['user_id'] = $result['id'];
-            header("Location: index.php");
-        } else {
-            $message = 'no puedes entrar xd';
+        header('location: index.php');
+    }
+    else{
+       
+        if (!empty($_POST)) 
+        {
+        
+        if (empty($_POST['email']) && empty($_POST['contraseña'])) 
+        {
+            echo "<script> alert('Ingresa tu email y tu contraseña para ingresar') </script>";
         }
+        else
+        {
+
+            $email = $_POST["email"];
+            $contraseña = $_POST["contraseña"];
+
+            $query = mysqli_query($conexion, "SELECT * FROM usuarios WHERE email= '".$email."' and contraseña= '".$contraseña."'");
+            $nr = mysqli_num_rows($query);
+
+            if ($nr == 1) 
+            {
+                $data = mysqli_fetch_array($query);
+                //session_start();
+                $_SESSION['active'] = true;
+                $_SESSION['idUser'] = $data['id'];
+                $_SESSION['email'] = $data['email'];
+                $_SESSION['nombre'] = $data['nombre'];
+                $_SESSION['pais'] = $data['pais'];
+                $_SESSION['estado'] = $data['estado'];
+                $_SESSION['ciudad'] = $data['ciudad'];
+                $_SESSION['codigoPostal'] = $data['codigoPostal'];
+                $_SESSION['direccion'] = $data['dirección'];
+                $_SESSION['referencias'] = $data['referencias'];
+                
+                header('location: index.php');
+
+            }
+            else {
+                echo "<script> alert('Datos incorrectos') </script>";
+                session_destroy();
+            }
+        }
+    }
     }
    
 ?>
@@ -82,7 +117,7 @@
     }
 
     /* Input Forms*/
-    input[type="text"], input[type="password"]{
+    input[type="text"], input[type="password"], input[type="email"] {
     outline: none;
     padding: 12px;
     display: block;
@@ -151,30 +186,27 @@
         <a class="nav-link" href="carrito.html">CARRITO <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-        <a class="nav-link" href="productos.php">PRODUCTOS</a>
+        <a class="nav-link" href="indexForm.php">PRODUCTOS</a>
         </li>
         </ul>
         </div>     
         </nav>
 
         <!--FORMULARIO-->
-        <saction class="container">
+
+        <section class="container">
         <font face="Forte">
         <h1 class="mt-5 display-4  text-center mb-5" style="text-shadow: 7px 5px 10px gray">INGRESAR A MI CUENTA</h1></font>
-        </saction>
+        </section>
 
         <div class="container">
-        <form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="POST">
+        <form action="loginForm.php" method="POST">
 
-            <input name="email" type="text" placeholder="Correo electrónico">
-            <input name="password" type="password" placeholder="Contraseña">
+            <input name="email" type="email" placeholder="Correo electrónico">
+            <input name="contraseña" type="password" placeholder="Contraseña">
             <input type="submit" value="Entrar">
 
-            <?php //if(!empty($message)): ?>
-            <div>
-                <?php //echo $message; ?>
-            </div>
-            <?php //endif; ?>
+            <div> <?php echo isset($alert)? $alert : ''; ?> </div>
 
         </form>
         </div>

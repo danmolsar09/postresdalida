@@ -94,10 +94,10 @@
 <!-- LOGO -->
      <ul class="navbar-nav ml-auto">
       <li class="nav-item ">
-        <a class="nav-link" href="#">CARRITO <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="#">CARRITO <span class=" sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="productos.php">PRODUCTOS</a>
+        <a class="nav-link" href="indexForm.php">PRODUCTOS</a>
       </li>
     </ul>
   </div>     
