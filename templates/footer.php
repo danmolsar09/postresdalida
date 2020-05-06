@@ -42,10 +42,10 @@
         <h6 class="text-uppercase font-weight-bold">PRODUCTOS</h6>
         <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
         <p>
-          <a class="text-danger stretched-link" href="clasicos.html">CLASICOS</a>
+          <a class="text-danger stretched-link" href="clasicos.html">CLÁSICOS DE DALIDA</a>
         </p>
         <p>
-          <a class="text-danger stretched-link" href="calor.html">PARA LA CALOR</a>
+          <a class="text-danger stretched-link" href="calor.html">PARA EL CALOR</a>
         </p>
         <p>
           <a class="text-danger stretched-link" href="mexico.html">MEXICANISIMOS</a>
