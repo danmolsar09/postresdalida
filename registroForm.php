@@ -132,18 +132,18 @@
         <div class="d-flex align-items-center collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
         <li class="nav-item ">
-        <a class="nav-link" href="nosotros.html">NOSOTROS<span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="nosotros.html"> <font color="SIENNA" face="Pristina" size="5">NOSOTROS</font><span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-        <a class="nav-link" href="index.html">INICIO</a>
+        <a class="nav-link" href="index.html"><font color="SIENNA" face="Pristina" size="5">INICIO</font></a>
         </li>
         <li class="nav-item  dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          CUENTA
+          <font color="SIENNA" face="Pristina" size="5">CUENTA</font>
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="registroForm.php">REGISTRATE</a>
-          <a class="dropdown-item" href="loginForm.php">INICIAR SESIÓN</a>
+          <a class="dropdown-item" href="registroForm.php"><font color="SIENNA" face="Pristina" size="5">REGISTRATE</font></a>
+          <a class="dropdown-item" href="loginForm.php"><font color="SIENNA" face="Pristina" size="5">INICIAR SESIÓN</font></a>
         </div>
       </li>
 </u>
@@ -151,10 +151,10 @@
     <!-- LOGO -->
         <ul class="navbar-nav ml-auto">
         <li class="nav-item">
-        <a class="nav-link" href="carrito.html">CARRITO <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="carrito.html"><font color="SIENNA" face="Pristina" size="5">CARRITO</font> <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-        <a class="nav-link" href="indexForm.php">PRODUCTOS</a>
+        <a class="nav-link" href="indexForm.php"><font color="SIENNA" face="Pristina" size="5">PRODUCTOS</font></a>
         </li>
         </ul>
         </div>     
@@ -171,7 +171,7 @@
 
         <!--FORMULARIO-->
         <section class="container">
-        <font face="Forte">
+        <font face="Forte" color="MEDIUMORCHID">
         <h1 class="mt-5 display-4  text-center mb-5" style="text-shadow: 7px 5px 10px gray">REGISTRO</h1></font>
         </section>
 
@@ -206,114 +206,123 @@
 
     <!-- Grid column -->
         <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
-        <h6 class="mb-0">¡Siguenos en instagram!</h6>
-        </div>
-        </div>
-    <!-- Grid row-->
-        </div>
+                        <h6 class="mb-0"><font face="Pristina" color="SIENNA" size="5">¡Siguenos en instagram!</font></h6>
+                    </div>
+
+                </div>
+                <!-- Grid row-->
+
+            </div>
         </div>
 
-    <!-- Footer Links -->
+        <!-- Footer Links -->
         <div class="container text-center text-md-left mt-5">
 
-    <!-- Grid row -->
-        <div class="row mt-3">
+            <!-- Grid row -->
+            <div class="row mt-3">
 
-    <!-- Grid column -->
-        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
 
-    <!-- Content -->
-        <h6 class="text-uppercase font-weight-bold">REPOSTERÍA DALIDA</h6>
-        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto text-justify" style="width: 60px;">
-        <p>Todo el contenido de esta página web es propiedad de REPOSTERÍA DALIDA. <br>La reproducción total o parcial del mismo está prohibida.</p>
+                    <!-- Content -->
+                    <h6 class="text-uppercase font-weight-bold"><font color="TOMATO" >REPOSTERÍA DALIDA</font></h6>
+                    <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto text-justify" style="width: 60px;">
+                    <p><font color="TEAL">Todo el contenido de esta página web es propiedad de REPOSTERÍA DALIDA. <br>La reproducción total o parcial del mismo está prohibida.</font></p>
+
+                </div>
+                <!-- Grid column -->
+                <!-- Grid column -->
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+
+                    <!-- Links -->
+                    <h6 class="text-uppercase font-weight-bold"><font color="TOMATO">PRODUCTOS</font></h6>
+                    <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                    <p>
+                        <a class="sub" href="clasicos.html"><font color="DARKMAGENTA">CLÁSICOS DE DALIDA</font></a>
+                    </p>
+                    <p>
+                        <a class="sub" href="calor.html"><font color="FUCHSIA">PARA EL CALOR</font></a>
+                    </p>
+                    <p>
+                        <a class="sub" href="mexico.html"><font color="DARKMAGENTA">MEXICANISIMOS</font></a>
+                    </p>
+                    <p>
+                        <a class="sub" href="amor.html"><font color="FUCHSIA">REGALA AMOR</font></a>
+                    </p>
+
+                </div>
+                <!-- Grid column -->
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+
+                    <!-- Links -->
+                    <h6 class="text-uppercase font-weight-bold"><font color="TOMATO">REDES SOCIALES</font></h6>
+                    <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                    <p>
+                        <a class="d-flex justify-content-center" href="https://www.instagram.com/reposteriadalida?r=nametag">
+                            <img src="images/instagram.png" width="30" height="30">
+                        </a>
+                    </p>
+                    <p>
+                        <a class="d-flex justify-content-center" href="https://www.facebook.com/Reposteria-Dalida-111018520515805/?modal=admin_todo_tour">
+                            <img src="images/facebook.png" width="30" height="30">
+                        </a>
+                    </p>
+                    <p>
+                        <a class="d-flex justify-content-center" href="https://twitter.com/ReposteriaDali2">
+                            <img src="images/twitter.png" width="30" height="30">
+                        </a>
+                    </p>
+                    <p>
+                        <a class="d-flex justify-content-center" href="https://mail.google.com/mail/u/0/#inbox">
+                            <img src="images/gmail.png" width="30" height="30">
+                        </a>
+                    </p>
+
+                </div>
+                <!-- Grid column -->
+                <!-- Grid column -->
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+
+                    <!-- Links -->
+                    <h6 class="text-uppercase font-weight-bold"><font color="TOMATO">CONTACTO</font></h6>
+                    <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                    <p>
+                        <i class="fas fa-home mr-3"></i><font color="   
+SADDLEBROWN"> Principal socio: Cafeteria de CBTis 03</font>
+                    </p>
+                    <p>
+                        <i class="fas fa-phone mr-3"></i> <font color=" 
+SADDLEBROWN">246 49 7 47 54</font>
+                    </p>
+                    <p>
+                        <i class="fas fa-print mr-3"></i> <font color=" 
+SADDLEBROWN">246 203 6715</font>
+                    </p>
+
+                </div>
+                <!-- Grid column -->
+
+            </div>
+            <!-- Grid row -->
 
         </div>
-    <!-- Grid column -->
-
-    <!-- Grid column -->
-        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-
-    <!-- Links -->
-        <h6 class="text-uppercase font-weight-bold">PRODUCTOS</h6>
-        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-        <p>
-        <a href="#!">CLASICOS</a>
-        </p>
-        <p>
-        <a href="#!">PARA LA CALOR</a>
-        </p>
-        <p>
-        <a href="#!">MEXICANISIMOS</a>
-        </p>
-        <p>
-        <a href="#!">REGALA AMOR</a>
-        </p>
-
+        <!-- Footer Links -->
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3"><font color="    
+SADDLEBROWN">
+            © 2020 Copyright:</font>
+            <a href="https://mdbootstrap.com/"><font color="    
+SADDLEBROWN"> REPOSTERÍA DALIDA</font></a>
         </div>
-    <!-- Grid column -->
+        <!-- Copyright -->
 
-    <!-- Grid column -->
-        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-
-    <!-- Links -->
-        <h6 class="text-uppercase font-weight-bold">REDES SOCIALES</h6>
-        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-        <p>
-        <a class="d-flex justify-content-center" href="https://www.instagram.com/reposteriadalida?r=nametag">
-        <img src="images/instagram.png" width="30" height="30">
-        </a>
-        </p>
-        <p>
-        <a class="d-flex justify-content-center" href="https://www.facebook.com/Reposteria-Dalida-111018520515805/?modal=admin_todo_tour">
-        <img src="images/facebook.png" width="30" height="30">
-        </a>
-        </p>
-        <p>
-        <a class="d-flex justify-content-center" href="https://www.facebook.com/Reposteria-Dalida-111018520515805/?modal=admin_todo_tour">
-        <img src="images/twitter.png" width="30" height="30">
-        </a>
-        </p>
-        <p>
-        <a class="d-flex justify-content-center" href="https://www.facebook.com/Reposteria-Dalida-111018520515805/?modal=admin_todo_tour">
-        <img src="images/gmail.png" width="30" height="30">
-        </a>
-        </p>
-
-        </div>
-    <!-- Grid column -->
-
-    <!-- Grid column -->
-        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-
-    <!-- Links -->
-        <h6 class="text-uppercase font-weight-bold">CONTACTO</h6>
-        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-        <p>
-        <i class="fas fa-home mr-3"></i> Principal socio: Cafeteria de CBTis 03</p>
-        <p>
-        <i class="fas fa-phone mr-3"></i> 246 49 7 47 54</p>
-        <p>
-        <i class="fas fa-print mr-3"></i> 246 203 6715</p>
-
-        </div>
-    <!-- Grid column -->
-
-        </div>
-    <!-- Grid row -->
-
-        </div>
-    <!-- Footer Links -->
-
-
-    <!-- Copyright -->
-        <div class="footer-copyright text-center py-3">© 2020 Copyright:
-        <a href="https://mdbootstrap.com/"> REPOSTERÍA DALIDA</a>
-        </div>
-
+    </footer>
+    <!-- Footer -->
     <!-- jQuery first, then Tether, then Bootstrap JS. -->
-        <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-        <script src="js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
 
 </body>
 </html>

@@ -107,7 +107,7 @@
 <!-- container -->
 
    <section class=" mt-5 d-flex align-content-center flex-wrap d-flex justify-content-center">
-        <font face="Sunday Best">
+        <font face="Forte" color="CRIMSON">
           <br>
             <h1 class="display-4" style="text-shadow: 7px 5px 10px gray;  " > <mark><em>PRODUCTOS</em></mark></h1>
         </font>
@@ -115,7 +115,7 @@
 
 
 <saction class="container p-3 mb-2 bg-warning text-dark">
-   <font face="Freestyle Script" color="TOMATO">
+   <font face="Freestyle Script" color="SPRINGGREEN">
   <h2 class="mt-5 display-4  text-center mb-5" style="text-shadow: 7px 5px 10px gray;  " >PARA LA CALOR</h2></font>
   <br>
 </saction>
@@ -170,6 +170,11 @@
         <input type="hidden" name="precio" id="precio" value="<?php echo openssl_encrypt ($producto['precio'],COD,KEY); ?>">   
         <input type="hidden" name="cantidad" id="cantidad" value="<?php echo openssl_encrypt (1,COD,KEY) ?>">
 
+         <div class="col-1"></div>
+            <div class="col-4">
+                <img src="images/2.jpeg" width="400" height="400">
+            </div>
+
         <!-- boton -->
         <div class="card-footer">
         <button class="btn btn-primary" 
@@ -194,7 +199,7 @@
 
 
 <saction class="container p-3 mb-2 bg-warning text-dark">
-   <font face="Freestyle Script" color="TOMATO" >
+   <font face="Freestyle Script" color="SPRINGGREEN" >
   <h2 class="mt-5 display-4  text-center mb-5 ani" style="text-shadow: 7px 5px 10px gray;  " >PARA EL FRIO</h2></font>
   <br>
 </saction>
@@ -272,7 +277,7 @@
 
 
 <saction class="container p-3 mb-2 bg-warning text-dark">
-   <font face="Freestyle Script" color="TOMATO">
+   <font face="Freestyle Script" color="SPRINGGREEN">
   <h2 class="mt-5 display-4  text-center mb-5 ani" style="text-shadow: 7px 5px 10px gray;  " >DE FIESTA</h2></font>
   <br>
 </saction>
@@ -351,7 +356,7 @@
 
 <!-- PRODUCTOS NUEVOS-->
 <saction class="container p-3 mb-2 bg-warning text-dark">
-   <font face="Forte">
+   <font face="Freestyle Script" color="SPRINGGREEN">
   <h2 class="mt-5 display-4  text-center mb-5" style="text-shadow: 7px 5px 10px gray">LO MÁS NUEVO</h2></font>
   <br>
 </saction>
