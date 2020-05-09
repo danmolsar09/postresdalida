@@ -55,7 +55,7 @@
     font-size: 100%;
             }
 </style>
-<title>PRODUCTOS</title>
+<title><font face="Forte" color="CRIMSON">PRODUCTOS</font></title>
   </head>
   <body>
 
@@ -72,31 +72,34 @@
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
+
         <div class="d-flex align-items-center collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item ">
-                    <a class="nav-link" href="nosotros2.html">NOSOTROS</a>
+                    <a class="nav-link" href="nosotros.html"  ><font color="SIENNA" face="Pristina" size="5"><strong>NOSOTROS</strong></font></a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="index.php">INICIO<span class="sr-only">(current)</span></a>
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html" ><font color="SIENNA" face="Pristina" size="5"><strong>INICIO</strong> </font><span class="sr-only">(current)</span></a>
                 </li>
 
                 <li class="nav-item  dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      CUENTA
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" ><font color="SIENNA" face="Pristina" size="5"><strong>
+                      CUENTA</strong></font>
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <a class="dropdown-item" href="cerrarSesion.php">CERRAR SESIÓN</a>
+                      <a class="dropdown-item" href="registroForm.php" ><font color="SIENNA" face="Pristina" size="5"><strong>REGISTRATE</strong></font></a>
+                      <a class="dropdown-item" href="loginForm.php" ><font color="SIENNA" face="Pristina" size="5"><strong>INICIAR SESIÓN</strong></font></a>
                     </div>
                   </li>
+
             </ul>
             <!-- LOGO -->
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="carrito.html">CARRITO <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="carrito.html"><font color="SIENNA" face="Pristina" size="5"><strong>CARRITO</strong> </font><span class="sr-only">(current)</span></a>
                 </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="productos.php">PRODUCTOS</a>
+                <li class="nav-item">
+                    <a class="nav-link" href="indexForm.php"><font color="SIENNA" face="Pristina" size="5"><strong>PRODUCTOS</strong></font></a>
                 </li>
             </ul>
         </div>
@@ -112,7 +115,7 @@
 
 
 <saction class="container p-3 mb-2 bg-warning text-dark">
-   <font face="Forte">
+   <font face="Freestyle Script" color="TOMATO">
   <h2 class="mt-5 display-4  text-center mb-5" style="text-shadow: 7px 5px 10px gray;  " >PARA LA CALOR</h2></font>
   <br>
 </saction>
@@ -191,7 +194,7 @@
 
 
 <saction class="container p-3 mb-2 bg-warning text-dark">
-   <font face="Forte">
+   <font face="Freestyle Script" color="TOMATO" >
   <h2 class="mt-5 display-4  text-center mb-5 ani" style="text-shadow: 7px 5px 10px gray;  " >PARA EL FRIO</h2></font>
   <br>
 </saction>
@@ -269,7 +272,7 @@
 
 
 <saction class="container p-3 mb-2 bg-warning text-dark">
-   <font face="Forte">
+   <font face="Freestyle Script" color="TOMATO">
   <h2 class="mt-5 display-4  text-center mb-5 ani" style="text-shadow: 7px 5px 10px gray;  " >DE FIESTA</h2></font>
   <br>
 </saction>
