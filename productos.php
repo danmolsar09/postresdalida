@@ -118,6 +118,10 @@
    <font face="Freestyle Script" color="SPRINGGREEN">
   <h2 class="mt-5 display-4  text-center mb-5" style="text-shadow: 7px 5px 10px gray;  " >PARA LA CALOR</h2></font>
   <br>
+  <div class="col-1"> </div>
+            <div class="col-4">
+                <img src="images/2.jpeg" width="400" height="400">
+            </div>
 </saction>
 
   <!--1-->
@@ -169,11 +173,6 @@
         <input type="hidden" name="nombre" id="nombre" value="<?php echo openssl_encrypt ($producto['nombre'],COD,KEY); ?>">  
         <input type="hidden" name="precio" id="precio" value="<?php echo openssl_encrypt ($producto['precio'],COD,KEY); ?>">   
         <input type="hidden" name="cantidad" id="cantidad" value="<?php echo openssl_encrypt (1,COD,KEY) ?>">
-
-         <div class="col-1"></div>
-            <div class="col-4">
-                <img src="images/2.jpeg" width="400" height="400">
-            </div>
 
         <!-- boton -->
         <div class="card-footer">
