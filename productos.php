@@ -139,20 +139,6 @@
 
     <br><br>
 
-    <div class="container">
-        <div class="row">
-            <div class="col-1"></div>
-            <div class="col-4">
-                <img src="images/3.jpeg" width="400" height="400">
-            </div>
-            
-            <div class="col-1"></div>
-            <div class="col-4">
-                <img src="images/4.jpeg" width="400" height="400">
-            </div>
-            
-        </div>
-    </div>
             
 </saction>
 
@@ -233,6 +219,20 @@
    <font face="Freestyle Script" color="SPRINGGREEN" >
   <h2 class="mt-5 display-4  text-center mb-5 ani" style="text-shadow: 7px 5px 10px gray;  " >PARA EL FRIO</h2></font>
   <br>
+  <div class="container">
+        <div class="row">
+            <div class="col-1"></div>
+            <div class="col-4">
+                <img src="images/3.jpeg" width="400" height="400">
+            </div>
+            
+            <div class="col-1"></div>
+            <div class="col-4">
+                <img src="images/4.jpeg" width="400" height="400">
+            </div>
+            
+        </div>
+    </div>
 </saction>
   <!--2-->
 <div class="container" style="background: rgba(0,0,0,0.4);">
