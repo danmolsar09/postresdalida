@@ -121,16 +121,39 @@
    <font face="Freestyle Script" color="SPRINGGREEN">
   <h2 class="mt-5 display-4  text-center mb-5" style="text-shadow: 7px 5px 10px gray;  " >PARA EL CALOR</h2></font>
   <br>
-  <div class="col-1"> </div>
-            <div class="col-4" >
-                <img src="images/2.jpeg" width="400" height="400">
-                <div class="col-4" >
-                <img src="images/3.jpeg" width="400" height="400">
-            </div>
-            <div class="col-4" >
+ 
+
+ <div class="container">
+        <div class="row">
+            <div class="col-1"></div>
+            <div class="col-4">
                 <img src="images/1.jpeg" width="400" height="400">
             </div>
+            
+            <div class="col-1"></div>
+            <div class="col-4">
+                <img src="images/2.jpeg" width="400" height="400">
             </div>
+            
+        </div>
+    </div>
+
+    <br><br>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-1"></div>
+            <div class="col-4">
+                <img src="images/3.jpeg" width="400" height="400">
+            </div>
+            
+            <div class="col-1"></div>
+            <div class="col-4">
+                <img src="images/4.jpeg" width="400" height="400">
+            </div>
+            
+        </div>
+    </div>
             
 </saction>
 
