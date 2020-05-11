@@ -35,7 +35,10 @@
     top:120px;
     z-index: 1030;
   }
-
+  #imagen1{
+    align-items: center;
+    justify-content: center;
+  }
   body{
     background-image: url(images/fondopr.png);
     background-size: 100vw 100vh;
@@ -119,8 +122,8 @@
   <h2 class="mt-5 display-4  text-center mb-5" style="text-shadow: 7px 5px 10px gray;  " >PARA LA CALOR</h2></font>
   <br>
   <div class="col-1"> </div>
-            <div class="col-4">
-                <center><img src="images/2.jpeg" width="400" height="400"></center>
+            <div class="col-4" id="imagen1">
+                <img src="images/2.jpeg" width="400" height="400">
             </div>
 </saction>
 
