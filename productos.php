@@ -124,14 +124,14 @@
   <div class="col-1"> </div>
             <div class="col-4" >
                 <img src="images/2.jpeg" width="400" height="400">
-            </div>
-            <div class="col-1"> </div>
-            <div class="col-4" >
+                <div class="col-4" >
                 <img src="images/3.jpeg" width="400" height="400">
             </div>
-               <div class="col-4" >
+            <div class="col-4" >
                 <img src="images/1.jpeg" width="400" height="400">
             </div>
+            </div>
+            
 </saction>
 
   <!--1-->
