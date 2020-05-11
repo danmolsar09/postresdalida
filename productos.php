@@ -120,7 +120,7 @@
   <br>
   <div class="col-1"> </div>
             <div class="col-4">
-                <img src="images/2.jpeg" width="400" height="400">
+                <center><img src="images/2.jpeg" width="400" height="400"></center>
             </div>
 </saction>
 
