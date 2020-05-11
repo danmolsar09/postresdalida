@@ -122,7 +122,6 @@
   <h2 class="mt-5 display-4  text-center mb-5" style="text-shadow: 7px 5px 10px gray;  " >PARA EL CALOR</h2></font>
   <br>
  
-
  <div class="container">
         <div class="row">
             <div class="col-1"></div>
