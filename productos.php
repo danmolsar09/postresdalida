@@ -119,11 +119,18 @@
 
 <saction class="container p-3 mb-2 bg-warning text-dark">
    <font face="Freestyle Script" color="SPRINGGREEN">
-  <h2 class="mt-5 display-4  text-center mb-5" style="text-shadow: 7px 5px 10px gray;  " >PARA LA CALOR</h2></font>
+  <h2 class="mt-5 display-4  text-center mb-5" style="text-shadow: 7px 5px 10px gray;  " >PARA EL CALOR</h2></font>
   <br>
   <div class="col-1"> </div>
-            <div class="col-4" id="imagen1">
+            <div class="col-4" >
                 <img src="images/2.jpeg" width="400" height="400">
+            </div>
+            <div class="col-1"> </div>
+            <div class="col-4" >
+                <img src="images/3.jpeg" width="400" height="400">
+            </div>
+               <div class="col-4" >
+                <img src="images/1.jpeg" width="400" height="400">
             </div>
 </saction>
 
