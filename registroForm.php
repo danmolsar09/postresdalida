@@ -132,18 +132,18 @@
         <div class="d-flex align-items-center collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
         <li class="nav-item ">
-        <a class="nav-link" href="nosotros.html"> <font color="SIENNA" face="Pristina" size="5">NOSOTROS</font><span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="nosotros.html"> <font color="SIENNA" face="Freestyle Script" size="5">NOSOTROS</font><span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-        <a class="nav-link" href="index.html"><font color="SIENNA" face="Pristina" size="5">INICIO</font></a>
+        <a class="nav-link" href="index.html"><font color="SIENNA" face="Freestyle Script" size="5">INICIO</font></a>
         </li>
         <li class="nav-item  dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          <font color="SIENNA" face="Pristina" size="5">CUENTA</font>
+          <font color="SIENNA" face="Freestyle Script" size="5">CUENTA</font>
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="registroForm.php"><font color="SIENNA" face="Pristina" size="5">REGISTRATE</font></a>
-          <a class="dropdown-item" href="loginForm.php"><font color="SIENNA" face="Pristina" size="5">INICIAR SESIÓN</font></a>
+          <a class="dropdown-item" href="registroForm.php"><font color="SIENNA" face="Freestyle Script" size="5">REGISTRATE</font></a>
+          <a class="dropdown-item" href="loginForm.php"><font color="SIENNA" face="Freestyle Script" size="5">INICIAR SESIÓN</font></a>
         </div>
       </li>
 </u>
@@ -151,10 +151,10 @@
     <!-- LOGO -->
         <ul class="navbar-nav ml-auto">
         <li class="nav-item">
-        <a class="nav-link" href="carrito.html"><font color="SIENNA" face="Pristina" size="5">CARRITO</font> <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="carrito.html"><font color="SIENNA" face="Freestyle Script" size="5">CARRITO</font> <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-        <a class="nav-link" href="indexForm.php"><font color="SIENNA" face="Pristina" size="5">PRODUCTOS</font></a>
+        <a class="nav-link" href="indexForm.php"><font color="SIENNA" face="Freestyle Script" size="5">PRODUCTOS</font></a>
         </li>
         </ul>
         </div>     

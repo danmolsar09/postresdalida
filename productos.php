@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 
    include 'global/config.php';
    include 'global/conexion.php';
@@ -79,19 +79,19 @@
         <div class="d-flex align-items-center collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item ">
-                    <a class="nav-link" href="nosotros.html"  ><font color="SIENNA" face="Pristina" size="5"><strong>NOSOTROS</strong></font></a>
+                    <a class="nav-link" href="nosotros.html"  ><font color="SIENNA" face="Freestyle Script" size="5"><strong>NOSOTROS</strong></font></a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="index.html" ><font color="SIENNA" face="Pristina" size="5"><strong>INICIO</strong> </font><span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="index.html" ><font color="SIENNA" face="Freestyle Script" size="5"><strong>INICIO</strong> </font><span class="sr-only">(current)</span></a>
                 </li>
 
                 <li class="nav-item  dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" ><font color="SIENNA" face="Pristina" size="5"><strong>
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" ><font color="SIENNA" face="Freestyle Script" size="5"><strong>
                       CUENTA</strong></font>
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <a class="dropdown-item" href="registroForm.php" ><font color="SIENNA" face="Pristina" size="5"><strong>REGISTRATE</strong></font></a>
-                      <a class="dropdown-item" href="loginForm.php" ><font color="SIENNA" face="Pristina" size="5"><strong>INICIAR SESIÓN</strong></font></a>
+                      <a class="dropdown-item" href="registroForm.php" ><font color="SIENNA" face="Freestyle Script" size="5"><strong>REGISTRATE</strong></font></a>
+                      <a class="dropdown-item" href="loginForm.php" ><font color="SIENNA" face="Freestyle Script" size="5"><strong>INICIAR SESIÓN</strong></font></a>
                     </div>
                   </li>
 
@@ -99,10 +99,10 @@
             <!-- LOGO -->
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="carrito.html"><font color="SIENNA" face="Pristina" size="5"><strong>CARRITO</strong> </font><span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="carrito.html"><font color="SIENNA" face="Freestyle Script" size="5"><strong>CARRITO</strong> </font><span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="indexForm.php"><font color="SIENNA" face="Pristina" size="5"><strong>PRODUCTOS</strong></font></a>
+                    <a class="nav-link" href="indexForm.php"><font color="SIENNA" face="Freestyle Script" size="5"><strong>PRODUCTOS</strong></font></a>
                 </li>
             </ul>
         </div>
@@ -155,7 +155,7 @@
   <div class="row">
   <!--PARA MOSTRAR LOS PRODUCTOS DE LA BASE DE DATOS-->
   <?php
-    $sentencia=$pdo->prepare ("SELECT * FROM `productos` WHERE ncategoria=1");
+    $sentencia=$pdo->p....repare ("SELECT * FROM `productos` WHERE ncategoria=1");
     $sentencia->execute();
     $listaProductos=$sentencia->fetchAll(PDO::FETCH_ASSOC); 
     //print_r ($listaProductos);
