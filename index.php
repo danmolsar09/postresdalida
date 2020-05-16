@@ -101,10 +101,10 @@
                 <video src="images/video.mp4" width="400" height="270" controls></video>
             </div>
             <div class="col-5 m-lg-5">
-                <h3 ><font color="CRIMSON" face="Freestyle Script" align="center" size="5"><strong> <center>¿SE TE ANTOJA ALGO CREMOSITO?¿BUSCAS POSTRES NUEVOS?¿ERES ECOLOGICO?¿TIENES HAMBRE?<center></strong></font></h3>
-                <p class="text-justify mb-4 " ><font color="SEAGREEN" face="Freestyle Script" align="center" size="5"><strong>Si respondiste a tan solo una de las anteriores cuestiones que sí, dejeme informarle que usted se encuentra en la página web correcta.</strong></font></p>
-                <h3 ><font color="CRIMSON" face="Freestyle Script" align="center" size="5"><strong><center>REPOSTERÍA DALIDA<center></strong></font></h3>
-                <p class="text-justify mb-5"><font color="SEAGREEN" face="Freestyle Script" align="center" size="5"><strong>La mejor repostería, con los mejores precios y sobre todo... ¡La mejor calidad!</strong></font></p>
+                <h3 ><font color="CRIMSON" face="Freestyle Script" align="center" size="7"><strong> <center>¿SE TE ANTOJA ALGO CREMOSITO?¿BUSCAS POSTRES NUEVOS?¿ERES ECOLOGICO?¿TIENES HAMBRE?<center></strong></font></h3>
+                <p class="text-justify mb-4 " ><font color="SEAGREEN" face="Freestyle Script" align="center" size="7"><strong>Si respondiste a tan solo una de las anteriores cuestiones que sí, dejeme informarle que usted se encuentra en la página web correcta.</strong></font></p>
+                <h3 ><font color="CRIMSON" face="Freestyle Script" align="center" size="7"><strong><center>REPOSTERÍA DALIDA<center></strong></font></h3>
+                <p class="text-justify mb-5"><font color="SEAGREEN" face="Freestyle Script" align="center" size="7"><strong>La mejor repostería, con los mejores precios y sobre todo... ¡La mejor calidad!</strong></font></p>
             </div>
             <div class="col-1"></div>
             
@@ -150,7 +150,7 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <h1 class="display-1 text-center mb-5">CONTINUARÁ</h1>
+                <h1 class="display-1 text-center mb-5"></h1>
             </div>
         </div>
     </div>
