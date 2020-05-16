@@ -144,7 +144,7 @@ background-color: #FFB6C1;
 
         <!-- Grid column -->
         <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
-          <h6 class="mb-0"><font face="Pristina" color="SIENNA" size="5">¡Siguenos en instagram!</font></h6>
+          <h6 class="mb-0"><font face="Pristina" color="SIENNA" size="5"><strong>¡Siguenos en instagram!</strong></font></h6>
         </div>
 
       </div>
