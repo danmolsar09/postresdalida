@@ -31,6 +31,11 @@
         p {
             font-size: 1rem;
         }
+        mark
+{
+    background-color: white;
+    
+}
     </style>
     <title>REPOSTERÍA DALIDA</title>
 </head>
@@ -89,7 +94,7 @@
 
     <section class="container">
         <font face="Forte">
-            <h1 class="mt-5 display-4  text-center mb-5" style="text-shadow: 7px 5px 10px gray;  "><font color="SEAGREEN">¡BIENVENIDOS!</font></h1>
+            <h1 class="mt-5 display-4  text-center mb-5" style="text-shadow: 7px 5px 10px gray;  "><font color="SEAGREEN"><mark>¡BIENVENIDOS!</mark></font></h1>
         </font>
     </section>
 

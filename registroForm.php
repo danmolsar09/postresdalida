@@ -111,7 +111,11 @@
         color: #DB7083;
     background-color: #ffffff;
     }
-
+mark
+{
+    background-color: white;
+    
+}
     </style>
 
 </head>
@@ -172,7 +176,7 @@
         <!--FORMULARIO-->
         <section class="container">
         <font face="Forte" color="MEDIUMORCHID">
-        <h1 class="mt-5 display-4  text-center mb-5" style="text-shadow: 7px 5px 10px gray">REGISTRO</h1></font>
+        <h1 class="mt-5 display-4  text-center mb-5" style="text-shadow: 7px 5px 10px gray"><mark>REGISTRO</mark></h1></font>
         </section>
 
         <div class="container">

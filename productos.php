@@ -57,6 +57,11 @@
     font-family: "Sunday Best", cursive;
     font-size: 100%;
             }
+            mark
+{
+    background-color: white;
+    
+}
 </style>
 <title><font face="Forte" color="CRIMSON">PRODUCTOS</font></title>
   </head>

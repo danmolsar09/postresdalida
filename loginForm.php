@@ -196,7 +196,7 @@
 
         <section class="container">
         <font face="Forte">
-        <h1 class="mt-5 display-4  text-center mb-5" style="text-shadow: 7px 5px 10px gray;  "><font color="SIENNA" face="Freestyle Script" size="5">INGRESAR A MI CUENTA</font></h1></font>
+        <h1 class="mt-5 display-4  text-center mb-5" style="text-shadow: 7px 5px 10px gray;  "><mark>INGRESAR A MI CUENTA</mark></h1></font>
         </section>
 
         <div class="container">
