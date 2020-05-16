@@ -62,6 +62,11 @@
     background-color: white;
     
 }
+footer{
+
+background-color: #FFB6C1;
+
+}
 </style>
 <title><font face="Forte" color="CRIMSON">PRODUCTOS</font></title>
   </head>
@@ -130,13 +135,13 @@
  <div class="container">
         <div class="row">
             <div class="col-1"></div>
-            <div class="col-4">
-                <img src="images/1.jpeg" width="400" height="400">
+            <div class="col-4"> <marquee>
+                <img src="images/1.jpeg" width="400" height="400"></marquee>
             </div>
             
             <div class="col-1"></div>
-            <div class="col-4">
-                <img src="images/2.jpeg" width="400" height="400">
+            <div class="col-4"> <marquee>
+                <img src="images/2.jpeg" width="400" height="400"></marquee>
             </div>
             
         </div>

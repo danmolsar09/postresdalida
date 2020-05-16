@@ -55,6 +55,11 @@
     background-color: white;
     
 }
+footer{
+
+background-color: #FFB6C1;
+
+}
 
 </style>
 <title>REGISTRO</title>

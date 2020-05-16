@@ -36,6 +36,11 @@
     background-color: white;
     color: "SEAGREEN";
 }
+footer{
+
+background-color: #FFB6C1;
+
+}
     </style>
     <title>REPOSTERÍA DALIDA</title>
 </head>

@@ -144,6 +144,11 @@
         color: #DB7083;
     background-color: #ffffff;
     }
+    footer{
+
+background-color: #FFB6C1;
+
+}
 
     </style>
 

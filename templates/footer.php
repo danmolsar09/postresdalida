@@ -2,6 +2,7 @@
 <footer class="page-footer font-small unique-color-dark" style="background-color: #E5BC8E">
 
   <div style="background-color: #D09C4C;">
+    
             <div class="container">
 
                 <!-- Grid row-->
