@@ -182,7 +182,7 @@ background-color: #FFB6C1;
         <!--FORMULARIO-->
         <section class="container">
         <font face="Forte" color="MEDIUMORCHID">
-        <h1 class="mt-5 display-4  text-center mb-5" style="text-shadow: 7px 5px 10px gray"><mark><font color="ORCHID">REGISTRO</font></mark></h1></font>
+        <h1 class="mt-5 display-4  text-center mb-5" ><mark><font color="FUCHSIA">REGISTRO</font></mark></h1></font>
         </section>
 
         <div class="container">
@@ -216,7 +216,7 @@ background-color: #FFB6C1;
 
     <!-- Grid column -->
         <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
-                        <h6 class="mb-0"><font face="Pristina" color="SIENNA" size="5"><strong>¡Siguenos en instagram!</strong></font></h6>
+                        <h6 class="mb-0"><marquee direction="up" behavior="alternate"><font face="Pristina" color="SIENNA" size="5"><strong>¡Siguenos en instagram!</strong></font></marquee></h6>
                     </div>
 
                 </div>
