@@ -34,7 +34,7 @@
         mark
 {
     background-color: white;
-    
+    color: "SEAGREEN";
 }
     </style>
     <title>REPOSTERÍA DALIDA</title>
@@ -70,8 +70,8 @@
                 </li>
 
                 <li class="nav-item  dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><font color="SIENNA" face="Freestyle Script" size="5">
-          CUENTA</font>
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><font color="SIENNA" face="Freestyle Script" size="5"><strong>
+          CUENTA</strong></font>
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
           <a class="dropdown-item" href="cerrarSesion.php"><font color="SIENNA" face="Freestyle Script" size="5"><strong>CERRAR SESIÓN</strong></font></a>
@@ -106,9 +106,9 @@
                 <video src="images/video.mp4" width="400" height="270" controls></video>
             </div>
             <div class="col-5 m-lg-5">
-                <h3 ><font color="CRIMSON" face="Freestyle Script" align="center" size="7"><strong> <center>¿SE TE ANTOJA ALGO CREMOSITO?¿BUSCAS POSTRES NUEVOS?¿ERES ECOLOGICO?¿TIENES HAMBRE?<center></strong></font></h3>
+                <h3 ><font color="CRIMSON" face="Freestyle Script" align="center" size="6"><strong> <center>¿SE TE ANTOJA ALGO CREMOSITO?¿BUSCAS POSTRES NUEVOS?¿ERES ECOLOGICO?¿TIENES HAMBRE?<center></strong></font></h3>
                 <p class="text-justify mb-4 " ><font color="SEAGREEN" face="Freestyle Script" align="center" size="7"><strong>Si respondiste a tan solo una de las anteriores cuestiones que sí, dejeme informarle que usted se encuentra en la página web correcta.</strong></font></p>
-                <h3 ><font color="CRIMSON" face="Freestyle Script" align="center" size="7"><strong><center>REPOSTERÍA DALIDA<center></strong></font></h3>
+                <h3 ><font color="CRIMSON" face="Freestyle Script" align="center" size="6"><strong><center>REPOSTERÍA DALIDA<center></strong></font></h3>
                 <p class="text-justify mb-5"><font color="SEAGREEN" face="Freestyle Script" align="center" size="7"><strong>La mejor repostería, con los mejores precios y sobre todo... ¡La mejor calidad!</strong></font></p>
             </div>
             <div class="col-1"></div>
