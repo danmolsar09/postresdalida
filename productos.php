@@ -122,7 +122,7 @@ background-color: #FFB6C1;
    <section class=" mt-5 d-flex align-content-center flex-wrap d-flex justify-content-center">
         <font face="Forte" color="CRIMSON">
           <br>
-            <h1 class="display-4" style="text-shadow: 7px 5px 10px gray;  " > <mark><em>PRODUCTOS</em></mark></h1>
+            <h1 class="display-4" style="text-shadow: 7px 5px 10px gray;  " > <mark><em><font color="SEAGREEN">PRODUCTOS</font></em></mark></h1>
         </font>
     </section>
 

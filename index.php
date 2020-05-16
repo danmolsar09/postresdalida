@@ -99,7 +99,7 @@ background-color: #FFB6C1;
 
     <section class="container">
         <font face="Forte">
-            <h1 class="mt-5 display-4  text-center mb-5" style="text-shadow: 7px 5px 10px gray;  "><font color="SEAGREEN"><mark>¡BIENVENIDOS!</mark></font></h1>
+            <h1 class="mt-5 display-4  text-center mb-5" style="text-shadow: 7px 5px 10px gray;  "><mark><font color="SEAGREEN">¡BIENVENIDOS!</font></mark></h1>
         </font>
     </section>
 
@@ -127,13 +127,13 @@ background-color: #FFB6C1;
     <div class="container">
         <div class="row">
             <div class="col-1"></div>
-            <div class="col-4">
-                <img src="images/1.jpeg" width="400" height="400">
+            <div class="col-4"><marquee onmouseover="stop()" onmouseout="start()" >
+                <img src="images/1.jpeg" width="400" height="400"></marquee>
             </div>
             
             <div class="col-1"></div>
-            <div class="col-4">
-                <img src="images/2.jpeg" width="400" height="400">
+            <div class="col-4"><marquee onmouseover="stop()" onmouseout="start()" >
+                <img src="images/2.jpeg" width="400" height="400"></marquee>
             </div>
             
         </div>
@@ -144,13 +144,13 @@ background-color: #FFB6C1;
     <div class="container">
         <div class="row">
             <div class="col-1"></div>
-            <div class="col-4">
-                <img src="images/3.jpeg" width="400" height="400">
+            <div class="col-4"><marquee onmouseover="stop()" onmouseout="start()" >
+                <img src="images/3.jpeg" width="400" height="400"></marquee>
             </div>
             
             <div class="col-1"></div>
-            <div class="col-4">
-                <img src="images/4.jpeg" width="400" height="400">
+            <div class="col-4"><marquee onmouseover="stop()" onmouseout="start()" >
+                <img src="images/4.jpeg" width="400" height="400"></marquee>
             </div>
             
         </div>

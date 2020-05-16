@@ -176,22 +176,22 @@ background-color: #FFB6C1;
         <a class="nav-link" href="index.html"><font color="SIENNA" face="Freestyle Script" size="5"><strong>INICIO</strong></font></a>
         </li>
         <li class="nav-item  dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          CUENTA
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><font color="SIENNA" face="Freestyle Script" size="5"><strong>
+          CUENTA</strong></font>
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="registroForm.php">REGISTRATE</a>
-          <a class="dropdown-item" href="loginForm.php">INICIAR SESIÓN</a>
+          <a class="dropdown-item" href="registroForm.php"><font color="SIENNA" face="Freestyle Script" size="5"><strong>REGISTRATE</strong></font></a>
+          <a class="dropdown-item" href="loginForm.php"><font color="SIENNA" face="Freestyle Script" size="5"><strong>INICIAR SESIÓN</strong></font></a>
         </div>
       </li>
 </div>
     <!-- LOGO -->
         <ul class="navbar-nav ml-auto">
         <li class="nav-item">
-        <a class="nav-link" href="carrito.html"><font color="SIENNA" face="Freestyle Script" size="5">CARRITO </font><span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="carrito.html"><font color="SIENNA" face="Freestyle Script" size="5"><strong>CARRITO</strong> </font><span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-        <a class="nav-link" href="indexForm.php"><font color="SIENNA" face="Freestyle Script" size="5">PRODUCTOS</font></a>
+        <a class="nav-link" href="indexForm.php"><font color="SIENNA" face="Freestyle Script" size="5"><strong>PRODUCTOS</strong></font></a>
         </li>
         </ul>
         </div>     
@@ -201,7 +201,7 @@ background-color: #FFB6C1;
 
         <section class="container">
         <font face="Forte">
-        <h1 class="mt-5 display-4  text-center mb-5" style="text-shadow: 7px 5px 10px gray;  "><mark>INGRESAR A MI CUENTA</mark></h1></font>
+        <h1 class="mt-5 display-4  text-center mb-5" style="text-shadow: 7px 5px 10px gray;  "><mark><font color="SEAGREEN">INGRESAR A MI CUENTA</font></mark></h1></font>
         </section>
 
         <div class="container">

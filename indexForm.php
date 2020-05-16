@@ -117,7 +117,7 @@ background-color: #FFB6C1;
 
 <saction class="container">
    <font face="Forte">
-  <h1 class="mt-5 display-4  text-center mb-5" style="text-shadow: 7px 5px 10px gray;  "><font color="SEAGREEN"><mark>INICIA SESIÓN O REGISTRATE</mark></font></h1></font>
+  <h1 class="mt-5 display-4  text-center mb-5" style="text-shadow: 7px 5px 10px gray;  "><mark><font color="SEAGREEN">INICIA SESIÓN O REGISTRATE</font></mark></h1></font>
 </saction>
 
   <div class="container">
