@@ -9,7 +9,9 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
 
     <style>
-
+.container2{
+    background-color: white;
+}
         .slider {
             background-image: url("images/uno.jpg");
             height: 100vh;
@@ -111,10 +113,10 @@ background-color: #FFB6C1;
                 <video src="images/video.mp4" width="400" height="270" controls></video>
             </div>
             <div class="col-5 m-lg-5">
-                <h3 ><font color="CRIMSON" face="Freestyle Script" align="center" size="6"><strong> <center>¿SE TE ANTOJA ALGO CREMOSITO?¿BUSCAS POSTRES NUEVOS?¿ERES ECOLOGICO?¿TIENES HAMBRE?<center></strong></font></h3>
+                <div class="container2"><h3 ><font color="CRIMSON" face="Freestyle Script" align="center" size="6"><strong> <center>¿SE TE ANTOJA ALGO CREMOSITO?¿BUSCAS POSTRES NUEVOS?¿ERES ECOLOGICO?¿TIENES HAMBRE?<center></strong></font></h3>
                 <p class="text-justify mb-4 " ><font color="SEAGREEN" face="Freestyle Script" align="center" size="7"><strong>Si respondiste a tan solo una de las anteriores cuestiones que sí, dejeme informarle que usted se encuentra en la página web correcta.</strong></font></p>
                 <h3 ><font color="CRIMSON" face="Freestyle Script" align="center" size="6"><strong><center>REPOSTERÍA DALIDA<center></strong></font></h3>
-                <p class="text-justify mb-5"><font color="SEAGREEN" face="Freestyle Script" align="center" size="7"><strong>La mejor repostería, con los mejores precios y sobre todo... ¡La mejor calidad!</strong></font></p>
+                <p class="text-justify mb-5"><font color="SEAGREEN" face="Freestyle Script" align="center" size="7"><strong>La mejor repostería, con los mejores precios y sobre todo... ¡La mejor calidad!</strong></font></p></div>
             </div>
             <div class="col-1"></div>
             
