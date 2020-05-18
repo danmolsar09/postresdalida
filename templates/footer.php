@@ -10,7 +10,7 @@
 
                     <!-- Grid column -->
                     <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
-                        <h6 class="mb-0"><font face="Pristina" color="SIENNA" size="5">¡Siguenos en instagram!</font></h6>
+                        <h6 class="mb-0"><font face="Pristina" color="SIENNA" size="5"><marquee behavior="alternate" direction="up" width="80%"><marquee direction="right">¡Siguenos en instagram!</marquee></marquee></font></h6>
                     </div>
 
                 </div>
@@ -29,9 +29,9 @@
                 <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
 
                     <!-- Content -->
-                    <h6 class="text-uppercase font-weight-bold"><font color="TOMATO" >REPOSTERÍA DALIDA</font></h6>
+                    <h6 class="text-uppercase font-weight-bold"><font color="TOMATO" face="Arial" size="5">REPOSTERÍA DALIDA</font></h6>
                     <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto text-justify" style="width: 60px;">
-                    <p><font color="TEAL">Todo el contenido de esta página web es propiedad de REPOSTERÍA DALIDA. <br>La reproducción total o parcial del mismo está prohibida.</font></p>
+                    <p><font color="TEAL" face="Arial" size="5">Todo el contenido de esta página web es propiedad de REPOSTERÍA DALIDA. <br>La reproducción total o parcial del mismo está prohibida.</font></p>
 
                 </div>
                 <!-- Grid column -->
@@ -39,19 +39,19 @@
                 <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
 
                     <!-- Links -->
-                    <h6 class="text-uppercase font-weight-bold"><font color="TOMATO">PRODUCTOS</font></h6>
+                    <h6 class="text-uppercase font-weight-bold"><font color="TOMATO" face="Arial" size="5">PRODUCTOS</font></h6>
                     <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
                     <p>
-                        <a class="sub" href="clasicos.html"><font color="DARKMAGENTA">CLÁSICOS DE DALIDA</font></a>
+                        <a class="sub" href="clasicos.html"><font color="DARKMAGENTA" face="Arial" size="5">CLÁSICOS DE DALIDA</font></a>
                     </p>
                     <p>
-                        <a class="sub" href="calor.html"><font color="FUCHSIA">PARA EL CALOR</font></a>
+                        <a class="sub" href="calor.html"><font color="FUCHSIA" face="Arial" size="5">PARA EL CALOR</font></a>
                     </p>
                     <p>
-                        <a class="sub" href="mexico.html"><font color="DARKMAGENTA">MEXICANISIMOS</font></a>
+                        <a class="sub" href="mexico.html"><font color="DARKMAGENTA" face="Arial" size="5">MEXICANISIMOS</font></a>
                     </p>
                     <p>
-                        <a class="sub" href="amor.html"><font color="FUCHSIA">REGALA AMOR</font></a>
+                        <a class="sub" href="amor.html"><font color="FUCHSIA" face="Arial" size="5">REGALA AMOR</font></a>
                     </p>
 
                 </div>
@@ -60,26 +60,26 @@
                 <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
 
                     <!-- Links -->
-                    <h6 class="text-uppercase font-weight-bold"><font color="TOMATO">REDES SOCIALES</font></h6>
+                    <h6 class="text-uppercase font-weight-bold"><font color="TOMATO" face="Arial" size="5">REDES SOCIALES</font></h6>
                     <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
                     <p>
                         <a class="d-flex justify-content-center" href="https://www.instagram.com/reposteriadalida?r=nametag">
-                            <img src="images/instagram.png" width="30" height="30">
+                            <img src="images/instagram.png" width="60" height="60">
                         </a>
                     </p>
                     <p>
                         <a class="d-flex justify-content-center" href="https://www.facebook.com/Reposteria-Dalida-111018520515805/?modal=admin_todo_tour">
-                            <img src="images/facebook.png" width="30" height="30">
+                            <img src="images/facebook.png" width="60" height="60">
                         </a>
                     </p>
                     <p>
                         <a class="d-flex justify-content-center" href="https://twitter.com/ReposteriaDali2">
-                            <img src="images/twitter.png" width="30" height="30">
+                            <img src="images/twitter.png" width="60" height="60">
                         </a>
                     </p>
                     <p>
                         <a class="d-flex justify-content-center" href="https://mail.google.com/mail/u/0/#inbox">
-                            <img src="images/gmail.png" width="30" height="30">
+                            <img src="images/gmail.png" width="60" height="60">
                         </a>
                     </p>
 
@@ -93,15 +93,15 @@
                     <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
                     <p>
                         <i class="fas fa-home mr-3"></i><font color="   
-SADDLEBROWN"> Principal socio: Cafeteria de CBTis 03</font>
+SADDLEBROWN" face="Arial" size="5"> Principal socio: Cafeteria de CBTis 03</font>
                     </p>
                     <p>
                         <i class="fas fa-phone mr-3"></i> <font color=" 
-SADDLEBROWN">246 49 7 47 54</font>
+SADDLEBROWN" face="Arial" size="5">246 49 7 47 54</font>
                     </p>
                     <p>
                         <i class="fas fa-print mr-3"></i> <font color=" 
-SADDLEBROWN">246 203 6715</font>
+SADDLEBROWN" face="Arial" size="5">246 203 6715</font>
                     </p>
 
                 </div>
@@ -114,10 +114,10 @@ SADDLEBROWN">246 203 6715</font>
         <!-- Footer Links -->
         <!-- Copyright -->
         <div class="footer-copyright text-center py-3"><font color="    
-SADDLEBROWN">
+SADDLEBROWN" face="Arial" size="5">
             © 2020 Copyright:</font>
             <a href="https://mdbootstrap.com/"><font color="    
-SADDLEBROWN"> REPOSTERÍA DALIDA</font></a>
+SADDLEBROWN" face="Arial" size="5"> REPOSTERÍA DALIDA</font></a>
         </div>
   <!-- Copyright -->
 
