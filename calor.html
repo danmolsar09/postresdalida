@@ -274,7 +274,9 @@ mark{
             <!-- LOGO -->
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="carrito.html"><font color="SIENNA" face="Freestyle Script" size="5"><strong>CARRITO</strong> </font><span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="carrito.html"><font color="SIENNA" face="Freestyle Script" size="5"><strong><ul class="navbar-nav ml-auto">CARRITO(<?php echo (empty($_SESSION ['CARRITO']))?
+            0:count($_SESSION['CARRITO']);
+            ?>) <span class="sr-only">(current)</span></strong> </font><span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="indexForm.php"><font color="SIENNA" face="Freestyle Script" size="5"><strong>PRODUCTOS</strong></font></a>
@@ -294,7 +296,7 @@ mark{
     </section>
 
     <div class="container">
-        <center><img src="images/2.jpeg" width="300" height="300" align="justify-content-center"></center> <br>
+        <center><img src="images/3.jpeg" width="300" height="300" align="justify-content-center"></center> <br>
         <div class="row">
             <div class="col-1"></div>
             <div class="col-4">

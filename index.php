@@ -76,7 +76,9 @@
             <!-- LOGO -->
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="carrito.html">CARRITO <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="carrito.html"><ul class="navbar-nav ml-auto">CARRITO(<?php echo (empty($_SESSION ['CARRITO']))?
+            0:count($_SESSION['CARRITO']);
+            ?>) <span class="sr-only">(current)</span></strong> </font><span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="productos.php">PRODUCTOS</a>
