@@ -299,20 +299,7 @@ background-color: #FFB6C1;
 
     <br><br>
 
-    <div class="container">
-        <div class="row">
-            <div class="col-1"></div>
-            <div class="col-4"><marquee onmouseover="stop()" onmouseout="start()" >
-                <img src="images/3.jpeg" width="400" height="400"></marquee>
-            </div>
-            
-            <div class="col-1"></div>
-            <div class="col-4"><marquee onmouseover="stop()" onmouseout="start()" >
-                <img src="images/4.jpeg" width="400" height="400"></marquee>
-            </div>
-            
-        </div>
-    </div>
+   
 <br>
     
     <div class="container">
