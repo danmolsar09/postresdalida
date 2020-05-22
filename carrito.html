@@ -277,38 +277,19 @@ background-color: #FFB6C1;
             </ul>
             <!-- LOGO -->
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="carrito.html"><font color="SIENNA" face="Freestyle Script" size="5"><strong>CARRITO</strong> </font><span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="indexForm.php"><font color="SIENNA" face="Freestyle Script" size="5"><strong>PRODUCTOS</strong></font></a>
-                </li>
-            </ul>
+        <li class="nav-item">
+        <a class="nav-link" href="carrito.html"><font color="SIENNA" face="Freestyle Script" size="5"><strong><ul class="navbar-nav ml-auto">CARRITO(<?php echo (empty($_SESSION ['CARRITO']))?
+            0:count($_SESSION['CARRITO']);
+            ?>) <span class="sr-only">(current)</span></strong> </font><span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link" href="indexForm.php"><font color="SIENNA" face="Freestyle Script" size="5"><strong>PRODUCTOS</strong></font></a>
+        </li>
+        </ul>
         </div>
     </nav>
 
     <!-- container -->
-
-   <section class="container">
-   <font face="Forte">
-  <h1 class="mt-5 display-4  text-center mb-5" style="text-shadow: 7px 5px 10px gray;"><font color="CRIMSON" ><mark>NOSOTROS</mark></font></h1></font>
-</section>
-
-<div class="container">
-  <div class="row">
-    <div class="col-1"></div>
-    <div class="col-4">
-       <video src="images/pub.mp4" width="400" height="400" controls></video>
-    </div>
-    <div class="col-5 m-lg-4">
-      <h3> Empresa 100% mexicana y tlaxcalteca</h3>
-      <p class="text-justify mb-4">Somos un grupo de personas que con un poco de visión han decidido emprender un negocio que hará felices a muchas personas.</h3>
-      <p class="text-justify mb-5">Nuestros productos están hechos con productos de la mejor calidad, es por eso que nos prefieren a nosotros.</p>
-      <p class="text-justify mb-5">Conocenos y deleita tu paladar con la variedad de productos que tenemos.</p>
-    </div>
-    <div class="col-1"></div>
-  </div>
-</div>
 <br><br>
     
     <div class="container">
